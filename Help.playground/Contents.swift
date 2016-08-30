@@ -1,6 +1,12 @@
 let name = "Audrey"
-name.uppercased()
+name.uppercaseString
 
-let uppercaseName = name.uppercased()
+
+let pet = "Zedd"
+pet.lowercaseString
+
+let uppercaseName = name.uppercaseString
 print("\(name)... \(name)... \(uppercaseName)! WAKE UP!")
-// prints "Audrey... Audrey... AUDREY! WAKE UP!")
+
+let lowercasePet = pet.lowercaseString
+print("Come here, \(pet).")
